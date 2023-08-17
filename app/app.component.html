@@ -1,0 +1,36 @@
+<table class="bordered-table">
+  <tr class="table-row">
+    <th>SSID</th>
+    <th>SS Name</th>
+    <th>Circle Name</th>
+    <th>DIV Name</th>
+    <th>Feeder Name</th>
+    <th>DateTime</th>
+    <th>IR</th>
+    <th>IY</th>
+    <th>IB</th>
+    <th>VR</th>
+    <th>VY</th>
+    <th>VB</th>
+    <th>KWR</th>
+    <th>KWY</th>
+    <th>KWB</th>
+  </tr>
+  <tr class="table-row" *ngFor="let item of combinedData">
+    <td>{{ item.SSID }}</td>
+    <td>{{ item.SSName }}</td>
+    <td>{{ item.CircleName }}</td>
+    <td>{{ item.DIVName }}</td>
+    <td>{{ item.FeederName }}</td>
+    <td>{{ item.DateTime }}</td>
+    <td>{{ item.IR }}</td>
+    <td>{{ item.IY }}</td>
+    <td>{{ item.IB }}</td>
+    <td>{{ item.VR }}</td>
+    <td>{{ item.VY }}</td>
+    <td>{{ item.VB }}</td>
+    <td>{{ item.KWR }}</td>
+    <td>{{ item.KWY }}</td>
+    <td>{{ item.KWB }}</td>
+  </tr>
+</table>
